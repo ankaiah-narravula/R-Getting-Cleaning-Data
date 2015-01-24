@@ -1,18 +1,18 @@
 
-===============================================================
-Script Name: run_analyis.R
-Date: 25 Jan 2015
-Dataset: Human Activity Recognition Using Smartphones Dataset
-Version: 1.0
-Author: Ankaiah Narravula
-==============================================================
+
+* Script Name: run_analyis.R
+* Date: 25 Jan 2015
+* Dataset: Human Activity Recognition Using Smartphones Dataset
+* Version: 1.0
+* Author: Ankaiah Narravula
+
 ## About the Script
 
 The script "run_analysis.R"  reads data from foler "data" and produces a new tidy dataset which will be required for tasks given in assignment.
 The Task performed on tidy data set is computed the average of each variable for each activity and each subject and stored in separate file
 
-The original dataset included the following data files:
-=======================================================
+## The original dataset included the following data files:
+
 * 'features.txt': List of all features.
 
 * 'activity_labels.txt': List of class labels and their activity name.
@@ -31,12 +31,12 @@ The original dataset included the following data files:
 
 
 ## Description of the script:
-==================================
+
 The run_analysis.R script merges data from a number of .txt files and produces a tidy data set which may be used for further analysis.
 
 - It reads text files "X_train", "y_train", and "subject_id" from folder meant for training data combines using cbind()
 
---It reads text files "X_test", "y_test", and "subject_id" from folder meant for test data combines using cbind()
+- It reads text files "X_test", "y_test", and "subject_id" from folder meant for test data combines using cbind()
 
 - Combines train data and test data using rbind()
 
